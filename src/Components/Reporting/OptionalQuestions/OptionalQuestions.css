@@ -1,0 +1,243 @@
+.btn-primary {
+  --bs-btn-color: #00426b;
+  --bs-btn-bg: #52eaff;
+  --bs-btn-border-color: #d9d9d9;
+  --bs-btn-hover-color: #00426b;
+  --bs-btn-hover-bg: #52eaff;
+  --bs-btn-hover-border-color: #52eaff;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #52eaff;
+  --bs-btn-active-bg: #52eaff;
+  --bs-btn-active-border-color: #52eaff;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #00426b;
+  --bs-btn-disabled-bg: #52eaff;
+  --bs-btn-disabled-border-color: #d9d9d9;
+}
+
+.btn-secondary {
+  --bs-btn-color: #0058b7;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #d9d9d9;
+  --bs-btn-hover-color: #0058b7;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #d9d9d9;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #00426b;
+  --bs-btn-active-bg: #52eaff;
+  --bs-btn-active-border-color: #d9d9d9;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
+}
+
+/* Spacing between buttons */
+.btn-group > .btn:not(:last-child) {
+  margin-right: 0.5rem; /* Adjust this value as per your preference */
+  border-radius: 0.75rem;
+}
+
+/* Race buttons in two columns */
+.two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distributes space evenly between the buttons */
+}
+
+#optionalQuestionsNextButton {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  padding: 1rem;
+  width: 18rem;
+  border-radius: 2rem;
+  background: #0058b7;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.optionalQuestions {
+  color: #00426b;
+  font-family: Noto Sans;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.questionsDiv {
+  font-family: Bitter;
+  color: #00426b;
+  width: 55.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-group {
+  width: 42rem;
+}
+
+#optionalQuestionsBackArrow {
+  font-family: Bitter;
+  display: flex;
+  width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.optionalH3 {
+  color: #00426b;
+  font-family: Bitter;
+  margin-bottom: 2rem;
+  display: block;
+  clear: both;
+}
+
+.opQuestionsDiv {
+  width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.optionalQuestionsButtons {
+  color: #0058b7;
+  font-family: Noto Sans;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  margin-bottom: 3rem;
+  width: 12rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem !important;
+}
+
+.optionalQuestionsButtons:hover {
+  color: #0058b7;
+}
+
+.optionalArrow {
+  position: relative;
+  top: 2.6rem;
+  left: -34.5rem;
+}
+
+
+
+
+
+/* ----------------------------- MOBILE ----------------------------- */
+
+
+@media screen and (max-width: 768px) {
+
+  .btn-group {
+    width: 21rem !important;
+  }
+
+  .optionalQuestionsButtons {
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  #optionalQuestionsNextButton {
+    width: 15rem;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .displayMobile {
+    display: block;
+  }
+
+  .optionalArrow {
+    display: block;
+    position: inherit;
+    padding: 0.5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .optionalArrow img {
+    float: left;
+  }
+
+  .questionsDiv, .opQuestionsDiv, .nextStepsDiv { 
+    padding-right: 0rem !important;
+    padding-top: 4rem !important;
+    width: 90% !important;
+    padding: 0.5rem !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .optionalContactQuestion2 {
+    font-size: 0.9rem !important;
+    line-height: 1.1rem !important;
+    height: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .mobileContact {
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .socialMediaCol {
+    width: 3rem !important;
+  }
+
+  .socialMediaIconsDiv img {
+    padding: 0.5rem !important;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+  }
+
+  .contactInfoForm {
+    width: 85% !important;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  .contactCol {
+    padding: 5px;
+  }
+
+  .skipSubmit {
+    margin-bottom: 4rem !important;
+  }
+
+  .optionalQuestions {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .leftAlign {
+    text-align: left !important;
+  }
+
+  .smallFont {
+    font-family: Noto Sans !important;
+    font-size: 1.125rem !important;
+  }
+
+  .italic {
+    font-style: italic !important;
+  }
+
+}

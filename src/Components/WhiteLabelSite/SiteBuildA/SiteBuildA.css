@@ -1,0 +1,280 @@
+/* Mobile Styles (max-width: 768px) */
+
+
+
+/* Site Build Header */
+@media (max-width: 768px) {
+  .siteBuildHeaderA>h1 {
+    font-size: 64px;
+    margin: 50px;
+
+  }
+}
+
+/* Header PA */
+@media (max-width: 768px) {
+  .siteBuildHeaderA>p {
+    margin: 50px;
+  }
+}
+
+/* Site Build Form */
+@media (max-width: 768px) {
+  .siteBuildFormA {
+    width: 500px;
+    height: auto;
+  }
+
+  .siteBuildFormInputA {
+    width: 400px;
+    height: 40px;
+  }
+
+  #contact_name {
+    width: 400px;
+  }
+
+  #org_name {
+    width: 400px;
+  }
+
+  #email {
+    width: 400px;
+  }
+
+  #site_origin {
+    width: 400px;
+  }
+
+  #home_link {
+    width: 400px;
+  }
+
+  .siteBuildFormLabelA {
+    width: 500px;
+
+  }
+
+
+  #contact_name_label {
+    width: 400px;
+
+  }
+
+  #org_name_label {
+    width: 400px;
+
+  }
+
+  #email_label {
+    width: 400px;
+
+  }
+
+  #site_origin_label {
+    width: 400px;
+
+  }
+
+  #home_link_label {
+    width: 400px;
+
+  }
+
+  #site_origin_paragraph {
+    width: 300px !important;
+    margin-left: 10px;
+    margin: auto;
+
+  }
+
+  #home_link_paragraph {
+    width: 300px !important;
+    margin: auto;
+  }
+
+}
+
+/* Form Header A */
+@media (max-width: 768px) {
+  .formHeaderA {
+    justify-content: center;
+  }
+}
+
+/* Site Build Continue Button */
+@media (max-width: 768px) {
+  .siteBuildContinueButtonA {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
+/* Back to Partner Page Link */
+
+.backtoPartnerPageA {
+  width: 100%;
+  display: flex;
+  color: #00426b;
+  margin: 20px 0;
+}
+
+.backtoPartnerPageA>p {
+  margin-left: 100px;
+  text-decoration: underline;
+
+}
+
+@media (max-width: 768px) {
+  .backtoPartnerPageA {
+    align-items: center;
+    justify-content: center
+  }
+
+  .backtoPartnerPageA>p {
+    margin-left: 0;
+
+  }
+}
+
+
+.siteBuildHeaderA>h1 {
+  color: #00426b;
+  text-align: center;
+  font-family: Bitter;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+
+.siteBuilderHeaderA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 50px;
+}
+
+
+.headerPA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00426b;
+  font-family: Noto Sans;
+  font-size: 14px;
+  margin: 0 150px 50px 150px;
+}
+
+/* Site Build Middle */
+.siteBuildMiddleA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f7f9fa;
+  width: 100%;
+  height: auto;
+}
+
+/* Site Build Form Input */
+.siteBuildFormInputA {
+  width: 632px;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #8D8D8D;
+
+  margin: 20px 0;
+}
+
+/* Site Build Form Label */
+.siteBuildFormLabelA>label {
+  color: #00426b;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin: .25rem 0;
+  font-style: normal;
+  line-height: 36px;
+  /* 120% */
+  text-align: left;
+  width: 632px;
+}
+
+/* Site Build Form Label Paragraph */
+.siteBuildFormLabelA>p {
+  color: #00426b;
+  font-family: Noto Sans;
+  font-size: 14px;
+  width: 632px;
+  text-align: left;
+
+}
+
+/* Form Header A */
+.formHeaderA {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+/* Form Header A Heading */
+.formHeaderA>h2 {
+  color: #00426b;
+  font-family: Bitter;
+  font-size: 30px;
+  font-weight: 500;
+
+
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .formHeaderA {
+    justify-content: center;
+  }
+}
+
+/* Site Build Continue Button */
+.siteBuildContinueButtonA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+  width: 95%;
+}
+
+.siteBuildContinueButtonA>p {
+  font-size: 20px;
+}
+
+/* Site Build Blue Button */
+.siteBuildBlueButtonA {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  background: #0058b7;
+  width: 176px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+}
+
+/* Site Build Blue Button Hover */
+.siteBuildBlueButtonA:hover {
+  cursor: pointer;
+}

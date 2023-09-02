@@ -1,0 +1,40 @@
+/* Request Confirmation */
+
+.requestConfirmationBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+#requestH2 {
+    color: #00426B;
+    text-align: center;
+    font-family: Bitter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#requestP {
+  color: #00426b;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 10px 250px;
+}
+
+@media (max-width: 768px) {
+  #requestP {
+  margin: 20px 70px;
+  }
+}
+
+
+#requestTextBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

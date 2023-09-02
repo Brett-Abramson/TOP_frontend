@@ -1,0 +1,129 @@
+.btn-primary {
+  --bs-btn-color: #00426b;
+  --bs-btn-bg: #52eaff;
+  --bs-btn-border-color: #d9d9d9;
+  --bs-btn-hover-color: #00426b;
+  --bs-btn-hover-bg: #52eaff;
+  --bs-btn-hover-border-color: #52eaff;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #52eaff;
+  --bs-btn-active-bg: #52eaff;
+  --bs-btn-active-border-color: #52eaff;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #00426b;
+  --bs-btn-disabled-bg: #52eaff;
+  --bs-btn-disabled-border-color: #d9d9d9;
+}
+
+.btn-secondary {
+  --bs-btn-color: #00426b;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #d9d9d9;
+  --bs-btn-hover-color: #00426b;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #d9d9d9;
+  --bs-btn-focus-shadow-rgb: 130, 138, 145;
+  --bs-btn-active-color: #00426b;
+  --bs-btn-active-bg: #52eaff;
+  --bs-btn-active-border-color: #d9d9d9;
+  --bs-btn-active-shadow: none;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6c757d;
+  --bs-btn-disabled-border-color: #6c757d;
+}
+
+.contactInfoForm input, .contactInfoForm input {
+  color: #00426B;
+}
+
+.contactInfoForm input::placeholder {
+  color: #999;
+}
+
+.whenToTestLink {
+  text-decoration: none !important;
+}
+
+.optionalContactQuestion {
+  color: #000;
+  font-family: Noto Sans;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.optionButtons {
+  font-family: Noto Sans;
+  font-size: 1.3rem;
+  font-weight: 400;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  margin-bottom: 6rem;
+}
+
+.questionsDiv {
+  width: 65rem;
+  display: block;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.btn-group {
+  width: 65rem;
+}
+
+#optionalQuestionsBackArrow {
+  font-family: Bitter;
+  display: flex;
+  width: 65rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  padding-top: 3rem;
+}
+
+#optionalQuestionsBackArrow img {
+  margin-right: 2rem;
+}
+
+i {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.yesContactInfoDiv {
+  width: 65rem;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.yesContactInfoDiv .form-label {
+  color: #00426b;
+  font-size: 1rem;
+}
+
+#optionalContactSubmitButton {
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  padding: 1rem;
+  width: 32rem;
+  border-radius: 2rem;
+  background: #dde5ed;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.backArrowImg {
+  padding-right: 2rem;
+}

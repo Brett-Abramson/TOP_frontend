@@ -1,0 +1,111 @@
+.siteBuildBlueButtonDesign {
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  background: #0058b7;
+  width: 180px;
+  height: 60px; 
+  padding: 3px 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 10px;
+}
+
+.siteBuildBlueButtonDesign:hover {
+  cursor: pointer;
+}
+
+
+.buttonsDesignDesign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 95%;
+}
+
+@media (max-width: 768px) {
+  .buttonsDesignDesign {
+    font-size: 0.9rem; 
+    min-height: 2.5rem; 
+    padding: 0.8rem 1rem;
+    margin: 0.5rem;
+    flex-direction: column;  
+  }
+}
+
+.designStart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 5rem;
+}
+
+.backToPartnerPageDesign {
+  width: 100%;
+  display: flex;
+  color: #00426b;
+  margin: 20px 0;
+  
+}
+.backToPartnerPageDesign > p {
+  margin-left: 100px;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .backToPartnerPageDesign {
+    align-items: center;
+    justify-content: center;
+  }
+  .backToPartnerPageDesign > p {
+    margin-left: 0;
+  }
+}
+
+.backtoPartnerPage:hover {
+  cursor: pointer;
+}
+
+
+.designStartBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.designStart>h1 {
+  color: #00426b;
+  text-align: center;
+  font-family: Bitter;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.siteBuilderHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 2rem;
+}
+
+.designStartP {
+  color: #00426b;
+  font-family: Noto Sans;
+  font-size: 18px;
+  margin: 0;
+}
