@@ -49,7 +49,7 @@ export const FormProvider = ({ children }) => {
 
     const data = JSON.stringify(newSite);
 
-    return fetch("http://localhost:5423/partners", {
+    return fetch("https://covid-tracker-backend-47c9459ddd2f.herokuapp.com//partners", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -101,7 +101,7 @@ export const FormProvider = ({ children }) => {
 
     const data = JSON.stringify(newUser);
 
-    fetch("http://localhost:5423/users", {
+    fetch("https://covid-tracker-backend-47c9459ddd2f.herokuapp.com//users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
