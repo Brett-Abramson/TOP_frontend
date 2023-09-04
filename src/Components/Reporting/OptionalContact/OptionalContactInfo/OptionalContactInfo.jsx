@@ -2,8 +2,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import backArrow from "../../../../Images/Button - Back to Step 2.png";
 import "../../OptionalContact/OptionalContact.css";
+import { useContext } from "react";
+import { FormContext } from "../../../../Context/FormContext";
 
 export default function OptionalContactInfo({ demoPage, setDemoPage }) {
+  const { handleUserSubmit } = useContext(FormContext);
+
+  const handleSkipAndSubmit = (event) => {
+    handleUserSubmit(event);
+    setDemoPage(10); // Redirects to the desired page
+  };
+
   return (
     <div>
     <div className="optionalArrow">
@@ -37,7 +46,7 @@ export default function OptionalContactInfo({ demoPage, setDemoPage }) {
       <div className="skipSubmit" style={{ display: "block", marginBottom: "13rem" }}>
         <span
           style={{ cursor: "pointer", textDecoration: "underline", color: "#0058B7", fontWeight: "500"}}
-          onClick={() => setDemoPage(10)}
+          onClick={handleSkipAndSubmit}
         >
           Skip & Submit
         </span>
