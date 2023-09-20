@@ -23,7 +23,7 @@ function Nav(props) {
             <Link to='/' >Home</Link>
           </li>
           <li className='nav-list-item'>
-            <Link to='/' >Report My Test</Link>
+            <Link to='/ReportMyTest' >Report My Test</Link>
           </li>
           <li className='nav-list-item'>
             <Link to='/partner-page#faq-section' >FAQs</Link>
