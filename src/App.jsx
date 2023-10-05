@@ -1,6 +1,7 @@
 import "./App.css";
 import { Route, Routes, useLocation } from "react-router-dom";
 import "chart.js";
+import { Analytics } from "@vercel/analytics/react";
 
 //Component imports
 import Footer from "./Components/Footer/Footer";
@@ -33,13 +34,17 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/ReportMyTest" element={<Reporting />} />
           <Route path="/ReviewAndSubmit" element={<ReviewAndSubmit />} />
-          <Route path="/RequestConfirmation" element={<RequestConfirmation />} />
+          <Route
+            path="/RequestConfirmation"
+            element={<RequestConfirmation />}
+          />
         </Routes>
       </FormProvider>
       {!isHomePage && <SiteBanner />}
 
       {/* <SiteBanner /> */}
       <Footer />
+      <Analytics />
     </div>
   );
 }
