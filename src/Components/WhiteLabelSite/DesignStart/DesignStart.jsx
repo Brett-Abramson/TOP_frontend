@@ -6,7 +6,7 @@ export default function DesignStart({ pageNumber, setPageNumber }) {
   return (
     <div className="designStartBody">
       <div className="backToPartnerPageDesign">
-      <p onClick={() => setPageNumber(0)}>
+      <p style={{ cursor: "pointer" }} onClick={() => setPageNumber(0)}>
           <img
             style={{ paddingRight: "0.5rem" }}
             src={LeftArrow}
