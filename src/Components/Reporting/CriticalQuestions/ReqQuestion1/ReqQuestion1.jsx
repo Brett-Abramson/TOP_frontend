@@ -18,7 +18,7 @@ export default function ReqQuestion1({ demoPage, setDemoPage }) {
 
   function handleChange(questionId, option) {
     setSelectedAnswer(option);
-    console.log("Selected Answer:", option);
+    // console.log("Selected Answer:", option);
 
     // Convert the option to a boolean value
     const booleanValue = option === "Positive" ? true : false;
@@ -31,9 +31,16 @@ export default function ReqQuestion1({ demoPage, setDemoPage }) {
 
   return (
     <>
-        <div className="reportHeader displayNone">Report COVID-19 at-home test results to help your community</div>
-        <div className="questionNumber displayNoneDesktop">
-        <img className="backArrowImg" src={backArrow} alt="Back Arrow" onClick={() => setDemoPage(demoPage - 1)} />
+      <div className="reportHeader displayNone">
+        Report COVID-19 at-home test results to help your community
+      </div>
+      <div className="questionNumber displayNoneDesktop">
+        <img
+          className="backArrowImg"
+          src={backArrow}
+          alt="Back Arrow"
+          onClick={() => setDemoPage(demoPage - 1)}
+        />
         1 of 5
       </div>
 
@@ -66,14 +73,14 @@ export default function ReqQuestion1({ demoPage, setDemoPage }) {
           >
             Negative
           </button>
-          </div>
-          <div className="questionImage displayNone">
+        </div>
+        <div className="questionImage displayNone">
           <img
             src={stockImage}
             alt="Hands on a table"
             style={{ maxWidth: "100%", width: "32.5rem", marginTop: "2rem" }}
           />
-          </div>
+        </div>
       </div>
       <div className="requiredQuestion1 displayNone">
         <span className="requiredQuestionAsterisk1">* </span>

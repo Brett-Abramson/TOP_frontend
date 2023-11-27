@@ -1,9 +1,15 @@
-import { Link } from "react-router-dom";
 import HomeImg from "../../../Images/HomeImg.png";
 import homeSection from "../../../Images/homeSection.png";
 import SiteBanner from "../../SiteBanner/SiteBanner";
+import { useNavigate } from "react-router-dom";
 
 function Home({ demoPage, setDemoPage }) {
+  const navigate = useNavigate();
+
+  const goToReporting = () => {
+    navigate("/ReportMyTest");
+  };
+
   return (
     <>
       <div className="home-page">
@@ -16,11 +22,9 @@ function Home({ demoPage, setDemoPage }) {
             <br />
             counter test result for yourself or any member of your family.
           </p>
-          {/* <Link to="/ReportMyTest"> */}
-            <button onClick={() => setDemoPage(1)} className="blueButton">
-              REPORT YOUR RESULTS
-            </button>
-          {/* </Link> */}
+          <button className="blueButton" onClick={goToReporting}>
+            REPORT YOUR RESULTS
+          </button>
         </div>
         <div className="home-image">
           <img src={HomeImg} alt="HomeImg" className="responsive-image" />
@@ -52,5 +56,3 @@ function Home({ demoPage, setDemoPage }) {
 }
 
 export default Home;
-
-// style={{ flex: 1, padding: '2rem' }}

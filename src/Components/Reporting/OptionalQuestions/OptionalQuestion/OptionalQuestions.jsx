@@ -74,7 +74,7 @@ export default function OptionalQuestions({ demoPage, setDemoPage }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(answers);
+    // console.log(answers);
     // Here you can handle the form submission. For example, you can send the data to a server.
   }
 
