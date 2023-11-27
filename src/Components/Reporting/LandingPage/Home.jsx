@@ -7,7 +7,7 @@ function Home({ demoPage, setDemoPage }) {
   const navigate = useNavigate();
 
   const goToReporting = () => {
-    navigate("/ReportMyTest");
+    navigate("/ReportMyTest?demoPage=1");
   };
 
   return (
