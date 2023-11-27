@@ -10,10 +10,9 @@ export default function SiteBuildA({ pageNumber, setPageNumber }) {
   return (
     <>
       <div className="backtoPartnerPageA">
-       
-        <p onClick={() => setPageNumber(0)}>
+        <p onClick={() => setPageNumber(0)} style={{ cursor: "pointer" }}>
           <img
-            style={{ paddingRight: "0.5rem" }}
+            style={{ paddingRight: "0.5rem", cursor: "pointer" }}
             src={LeftArrow}
             alt="Left arrow"
           />{" "}
@@ -24,8 +23,8 @@ export default function SiteBuildA({ pageNumber, setPageNumber }) {
       <div className="siteBuildHeaderA">
         <h1>Request a Stand-Alone Site </h1>
         <p className="headerPA">
-          After you submit this form our team will reach out to you to start the the process
-          and clarify any additional details.
+          After you submit this form our team will reach out to you to start the
+          the process and clarify any additional details.
         </p>
         <img
           src={statusBar}
@@ -88,8 +87,12 @@ export default function SiteBuildA({ pageNumber, setPageNumber }) {
             />
 
             <div className="siteBuildFormLabelA">
-              <label htmlFor="site_origin" id="site_origin_label">Site Origin<span style={{ color: "red" }}>*</span></label>
-              <p id="site_origin_paragraph">Used to record where users come from</p>
+              <label htmlFor="site_origin" id="site_origin_label">
+                Site Origin<span style={{ color: "red" }}>*</span>
+              </label>
+              <p id="site_origin_paragraph">
+                Used to record where users come from
+              </p>
             </div>
             <input
               type="text"
@@ -102,10 +105,12 @@ export default function SiteBuildA({ pageNumber, setPageNumber }) {
             />
 
             <div className="siteBuildFormLabelA">
-              <label htmlFor="home_link" id="home_link_label">Home Link</label>
+              <label htmlFor="home_link" id="home_link_label">
+                Home Link
+              </label>
               <p id="home_link_paragraph">
-                Users of your stand-alone site who click on your logo will be directed to this
-                URL
+                Users of your stand-alone site who click on your logo will be
+                directed to this URL
               </p>
             </div>
             <input
@@ -120,20 +125,27 @@ export default function SiteBuildA({ pageNumber, setPageNumber }) {
 
             {/* ------------ buttons updated the pageNuber useState --------- */}
             <div className="siteBuildContinueButtonA">
-              <p onClick={() => setPageNumber(pageNumber - 1)}
+              <p
+                onClick={() => setPageNumber(pageNumber - 1)}
                 style={{
-                  cursor: 'pointer',
-                  fontSize: '20px',
-                  color: '#00426b',
-                  textDecoration: 'underline'
-                }}>
+                  cursor: "pointer",
+                  fontSize: "20px",
+                  color: "#00426b",
+                  textDecoration: "underline",
+                }}
+              >
                 <img
                   style={{ paddingRight: "0.5rem" }}
                   src={LeftArrow}
                   alt="Left arrow"
                 />{" "}
-                Go back</p>
-              <button className="siteBuildBlueButtonA" id="siteBuildBlueButtonA" onClick={() => setPageNumber(3)}>
+                Go back
+              </p>
+              <button
+                className="siteBuildBlueButtonA"
+                id="siteBuildBlueButtonA"
+                onClick={() => setPageNumber(3)}
+              >
                 Continue &gt;
               </button>
             </div>

@@ -13,7 +13,7 @@ export default function SiteBuildB({ pageNumber, setPageNumber }) {
       <div className="backtoPartnerPageB">
         <p onClick={() => setPageNumber(0)}>
           <img
-            style={{ paddingRight: "0.5rem" }}
+            style={{ paddingRight: "0.5rem", cursor: "pointer" }}
             src={LeftArrow}
             alt="Left arrow"
           />{" "}

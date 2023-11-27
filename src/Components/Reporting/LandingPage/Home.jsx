@@ -16,11 +16,11 @@ function Home({ demoPage, setDemoPage }) {
             <br />
             counter test result for yourself or any member of your family.
           </p>
-          <Link to="/ReportMyTest">
-            <button className="blueButton" >
+          {/* <Link to="/ReportMyTest"> */}
+            <button onClick={() => setDemoPage(1)} className="blueButton">
               REPORT YOUR RESULTS
             </button>
-          </Link>
+          {/* </Link> */}
         </div>
         <div className="home-image">
           <img src={HomeImg} alt="HomeImg" className="responsive-image" />
