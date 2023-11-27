@@ -17,7 +17,9 @@ function Home({ demoPage, setDemoPage }) {
             counter test result for yourself or any member of your family.
           </p>
           <Link to="/ReportMyTest">
-            <button className="blueButton">REPORT YOUR RESULTS</button>
+            <button className="blueButton" >
+              REPORT YOUR RESULTS
+            </button>
           </Link>
         </div>
         <div className="home-image">
